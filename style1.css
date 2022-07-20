@@ -6,18 +6,14 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Ubuntu', sans-serif;
 }
 /* -------------------top banner----------------------- */
-.top{
-    padding-top: 40px;
-      
-}
+ 
 .top-banner{
     background-color: black;
     display:flex;
     width: 950px;
-    height: auto;
     border-radius: 20px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 .head {
     color: #fff;
@@ -46,7 +42,7 @@ font-family: 'Ubuntu', sans-serif;
 .top-image{
     
   width: 500px; 
-  height: 445px; 
+  height: 450px; 
   object-fit: contain;
   position: relative;
   top: 50%;
@@ -83,6 +79,11 @@ font-family: 'Ubuntu', sans-serif;
 .blog22{
     text-decoration: none;
     font-size: larger;
+    padding: 10px;
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 .blog-details11{
     padding: 10px;
@@ -164,5 +165,30 @@ hr{
     margin: 5px 2px;
     color:#fff
   }
-
+  @media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .top-banner{
+        background-color: red;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .top, .top-content{
+        justify-content: center;
+    }
+    .top, .image1{
+        margin-top: 300px;
+        
+    }
+.blog{
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+ .footclass{
+        display: none;
+    }
+  }
 
