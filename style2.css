@@ -112,14 +112,17 @@ margin: 0 auto;
 .football-tournament{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 20px;
 }
-.country{
+.team{
     width: 252px;
-    height: 242px;
+    height: 210px;
     border: 1px solid gray;
     margin-top: 15px;
     border-radius: 8px;
+}
+.country{
+   
     display: flex;
    }
    .country img{
@@ -130,6 +133,9 @@ margin: 0 auto;
    h3{
     margin-top: 35px;
     margin-left: 8px;
+   }
+   .sport{
+    margin-left: 34px;
    }
     
 
