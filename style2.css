@@ -53,8 +53,13 @@ margin: 0 auto;
 
 }
 
-/* transfer */
-.transfer{
+
+
+
+
+
+/*-------------------- Match---------------*/
+.match{
     display: flex;
     margin-top: 60px;
     margin-left: 60px;
@@ -77,10 +82,14 @@ margin: 0 auto;
     margin-left: 10px;
     border-radius: 5px;
     font-size: larger;
+    background-color: red;
    
 }
-.blog22{
+.blog-details22{
     text-decoration: none;
+    font-size: larger;
+    
+    
 }
 .blog-details11{
     padding: 10px;
@@ -89,6 +98,7 @@ margin: 0 auto;
     margin-left: 10px;
     border-radius: 5px;
     font-size: larger;
+
 }
 .blog-details2{
     padding: 10px;
@@ -97,38 +107,31 @@ margin: 0 auto;
     border-radius: 5px;
     margin-left: 10px;
     font-size: larger;
-    background-color: red;
+    
 }
-.transfer-element{
+.football-tournament{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
 }
-.transfer-menu{
-    width: 224px;
-    height: 300px;
+.country{
+    width: 252px;
+    height: 242px;
     border: 1px solid gray;
     margin-top: 15px;
     border-radius: 8px;
-   }
-   .transfer-detail{
-    padding-left: 8px;
-   }
-
-.transfer-element .transfer-photo img{
-    width: 224px;
-    height: 134px;
-    border-radius: 5px;
-}
-.schedule{
     display: flex;
-    justify-content: space-between;
-}
-.fa-message{
-    color:skyblue;
-    padding-right: 100px;
+   }
+   .country img{
+    margin-top: 20px;
+    margin-left: 13px;
 
-} 
+   }
+   h3{
+    margin-top: 35px;
+    margin-left: 8px;
+   }
+    
 
 .footclass{
     background-color: black;
@@ -172,7 +175,5 @@ hr{
              }
          }
        
-
-         /* Second website-----------*/
 
          
