@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Poppins:wght@500&family=Roboto+Slab&family=Ubuntu&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif;
+margin: 0 auto;
+}
+.top{
+    padding-top: 40px;
+}
+.top-banner{
+    background-color: black;
+    display:flex;
+    width: 950px;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 100px;
+}
+.head {
+    color: #fff;
+    width: 300px;
+   padding-left: 70px;
+   font-size: 3vmax;
+}
+
+.content{
+    color: #fff;
+    width: 300px;
+   padding-left: 70px;
+   font-size: 20px;
+
+}
+.link-button{
+    text-decoration: none;
+    background:orange;
+    padding: 10px 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange , tomato);
+}
+ 
+.top-image{
+    
+  width: 500px; 
+  height: 445px; 
+  object-fit: contain;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+/* transfer */
+.transfer{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    column-gap: 50px;
+}
+.blog{
+    background-color: black;
+    color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.blog-details1{
+    padding: 10px;
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: larger;
+   
+}
+.blog22{
+    text-decoration: none;
+}
+.blog-details11{
+    padding: 10px;
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: larger;
+}
+.blog-details2{
+    padding: 10px;
+    width: 80%;
+    margin-top: 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: larger;
+    background-color: red;
+}
+.transfer-element{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.transfer-menu{
+    width: 224px;
+    height: 300px;
+    border: 1px solid gray;
+    margin-top: 15px;
+    border-radius: 8px;
+   }
+   .transfer-detail{
+    padding-left: 8px;
+   }
+
+.transfer-element .transfer-photo img{
+    width: 224px;
+    height: 134px;
+    border-radius: 5px;
+}
+.schedule{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-message{
+    color:skyblue;
+    padding-right: 100px;
+
+} 
+
+.footclass{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    height: 400px;
+    margin-top: 80px;
+    font-size: larger;
+} 
+hr{
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.contact{
+    color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/*--------------------media query-------*/
+@media only screen and (max-width:576px) {
+    
+               .top-banner{
+              grid-template-columns: repeat(1,1fr);
+                flex-direction: column;
+               }
+            
+        }
+
+     /*-----------Tablet Devices-----*/
+         @media only screen and (min-width:768px) and (max-width:992px){
+            .top-banner{
+                grid-template-columns: repeat(2,1fr);
+                flex-direction: column;
+        
+             }
+         }
+       
+
+         /* Second website-----------*/
+
+         
